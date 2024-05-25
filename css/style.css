@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-    border: solid 2px lightblue;
+   
     font-family: "roboto";
     font-size: medium;
     
@@ -37,10 +37,11 @@ a{
     font-size: small;
     text-decoration: none;
     color: black;
+    margin-bottom: 0 5px;
 }
 
 a:hover{
-    border: solid 1.5px gray;
+    border: solid 2px gray;
     border-radius: 5px;
 }
 
@@ -92,7 +93,7 @@ svg{
 
 .aHero:hover{
     color: white;
-    background-color: black;
+    background-color: #161517;
     text-decoration: none;
 }
 
@@ -102,46 +103,53 @@ svg{
 
 
 .slider{
-    background-color: black;
-    height: 60px;
+    background-color: #161517;
+    height: 90px;
     white-space: nowrap;
-    display: grid;
     position: relative;
     place-items: center;
+    overflow: hidden;
+    vertical-align: middle;
+  
+
 }
 
+
 .slide-track{
+    color: white;
     display: flex;
-    width: 5000px;
-    animation: scroll 5s  infinite linear;
+    width: 2280px;
+    animation: scroll 10s  infinite linear;
+    overflow: hidden;
+    
+
 }
+
 
 .slide{
     color: white;
-    padding: 0 10px;
-    overflow: hidden;
+    padding: 10px;
     position: relative;
     display: flex;
     align-items: center;
-  
+    width: 285px;
 }
 
+.pSlider{
+    font-size: 20px;
+}
 @keyframes scroll {
     0%{
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-550px);
+        transform: translateX(-50%);
     }
 } 
 
-/* 
-@keyframes mianimacion {
-    00% {left:0px}
-    25% {left:215px}
-    50% {left:430px}
-    75% {left:645px}
-    100% {left :860px}
+.imgBanda{
+    height: 60px;
+    margin: 0 20px
+}
 
-} */
 
