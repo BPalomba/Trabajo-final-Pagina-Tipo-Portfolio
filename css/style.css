@@ -100,3 +100,48 @@ svg{
     width: 420px;
 }
 
+
+.slider{
+    background-color: black;
+    height: 60px;
+    white-space: nowrap;
+    display: grid;
+    position: relative;
+    place-items: center;
+}
+
+.slide-track{
+    display: flex;
+    width: 5000px;
+    animation: scroll 5s  infinite linear;
+}
+
+.slide{
+    color: white;
+    padding: 0 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+  
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-550px);
+    }
+} 
+
+/* 
+@keyframes mianimacion {
+    00% {left:0px}
+    25% {left:215px}
+    50% {left:430px}
+    75% {left:645px}
+    100% {left :860px}
+
+} */
+
