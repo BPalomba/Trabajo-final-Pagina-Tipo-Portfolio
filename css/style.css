@@ -63,6 +63,7 @@ a:hover{
 }
 
 
+
 /* Main */
 
 .h1Hero{
@@ -79,6 +80,7 @@ a:hover{
     display:inline-flex;
     align-items:center;
     width: auto;
+    border: 2px solid transparent;
     
 }
 
@@ -110,7 +112,7 @@ svg{
     place-items: center;
     overflow: hidden;
     vertical-align: middle;
-  
+    margin-top: 30px;  
 
 }
 
