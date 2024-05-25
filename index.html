@@ -9,20 +9,20 @@
 </head>
 <body>
     <header>
-            <h1>MM</h1>
+            <h2 class="negrita">MM</h2>
             <nav>
-                <p>Home</p>
-                <p>About</p>
-                <p>Portfolio</p>
-                <p>Services</p>
-                <p>Project</p>
-                <button>Contact Me</button>
+                <a href="#hero">Home</a>
+                <a href="#aboutMe">About</a>
+                <a href="#myPortfolio">Portfolio</a>
+                <a href="#myServices">Services</a>
+                <a href="#testimonial">Project</a>
+                <a href="#getInTouch" class="contactMe">Contact Me</a>
             </nav>
     </header>
 
     <main>
         <!-- Hero -->
-        <section class="hero">
+        <section class="hero" id="hero">
             <!-- Agregar icono saludo -->
             <h2>HELLO</h2>
             <h1>I am Marvin Mckinny UI/UX Designer</h1>
@@ -51,7 +51,7 @@
 
 
         <!-- About Me -->
-        <section class="aboutMe">
+        <section class="aboutMe" id="aboutMe">
             <img src="" alt="">
 
             <h2>ABOUT ME</h2>
@@ -97,7 +97,7 @@
         <!-- Fin About Me -->
 
         <!-- My Services -->
-        <section class="myServices">
+        <section class="myServices" id="myServices">
             <h2>
                 MY SERVICES
             </h2>
@@ -154,7 +154,7 @@
 
 
         <!-- My Portfolio -->
-        <section>
+        <section class="myPortfolio" id="myPortfolio">
             <h2>
                 MY PORTFOLIO
             </h2>
@@ -205,7 +205,11 @@
         <!-- Fin My Portfolio -->
 
         <!-- Testimonial -->
-        <section class="testimonial">
+        <section class="testimonial" id="testimonial">
+
+            <!-- Imagen del cliente -->
+            <img src="" alt="">
+
             <h2>
                 TESTIMONIAL
             </h2>
@@ -221,13 +225,102 @@
             <p>
                 There are many varaitions of passages of Lorem Ipsum avaible, but the majority have suffered alteration in some form, by injected humour, or randomised wordss which don't look even slightly beliavable. If you are going to use a passage of at Lorem Ipsum, you need to be sure there isn'tanything embarrassing hidden in the middle of text. Some form, by avaible.
             </p>
+
+            <h3>
+                Esther Howard
+            </h3>
+
+            <p>
+                CEO Founder
+            </p>
+
+            <!-- Flechitas -->
+            <div>
+                <button class="flechas"><=</button>
+
+                <button class="flechas">=></button>
+            </div>
+
         </section>
         <!-- Fin Testimonial -->
 
+        <!-- Get in touch -->
+        <section class="getInTouch" id="getInTouch">
+
+        <h2>GET IN TOUCH</h2>
+
+        <h1>Start a Conversation Today</h1>
+    
+        <p>Welcome to our captivating gallery, where every click tells a unique story, and at Immerse yourself in a visual journey through breathtaking ladnscapes, heartfelt portraits</p>
+
+        <div class="cuadradoContacto">
+            <h1 class="h1Contacto">Let's Contact Me</h1>
+
+            <label for="" class="labelContancto" placeholer>Name</label>
+            <input type="text" class="inputContacto" placeholder="Your Name">
+
+            <label for="" class="labelContancto">Email</label>
+            <input type="email" class="inputContacto" placeholder="Your Email">
+
+            <label for="" class="labelContancto">Business Details</label>
+            <input type="text" class="inputContacto" placeholder="Enter Business Details">
+
+            <label for="" class="labelContancto">Services Required</label>
+            <select name="" id="" aria-placeholder="Select a Services">
+                <option value="" disabled selected>Select a Services</option>
+                <option value="">Web Designer</option>
+                <option value="">Backend</option>
+            </select>
+
+            <Button class="buttonContacto"><p class="pButton">Send Messages</p></Button>
+        </div>
+
+        </section>
+        <!-- Fin Get in touch -->
     </main>
 
     <footer>
+        <!-- VdLabs -->
+        <section>
+            <h1 class="VDLabs"> VDLabs</h1>
+            <p>Welcome yo our captivating gallery where every click tells a unique story and at Immerse yourse</p>
+        </section>
 
+        <!-- FollowMe -->
+        <section>
+            <h1 class="h1Footer">Follow me</h1>
+            <!-- Facebook -->
+            <a href=""></a>
+            <!-- Twitter -->
+            <a href=""></a>
+            <!-- Linkeding -->
+            <a href=""></a>
+            <!-- Mundo? -->
+            <a href=""></a>
+        </section>
+
+        <!-- Contact -->
+        <section>
+            <h1 class="h1Footer">Contact</h1>
+            <!-- Icono mail -->
+            <p>hellomarvin@gmail.com</p>
+            <!-- Icono Telefono / llamada -->
+            <p>+97-24672-87000</p>
+        </section>
+
+        <!-- Nav Footer -->
+        <section>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#aboutMe">About</a>
+                <a href="#myPortfolio">Portfolio</a>
+                <a href="#myServices">Services</a>
+                <a href="#testimonial">Project</a>
+            </nav>
+        </section>
+        <hr>
+        <p class="derecha">Privacy Policy | Terms & Condition</p>
+        <p class="izquierda">© VDlabs. All Rights reserved.</p>
     </footer>
 </body>
 </html>
