@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-   
+    border: solid aquamarine 2px;
     font-family: "roboto";
     font-size: medium;
     
@@ -64,7 +64,18 @@ a:hover{
 
 
 
-/* Main */
+/* Hero */
+
+.hero{
+    background-image: url('../img/yo.png');
+    background-position: bottom right;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    filter: grayscale(90%);
+    border: 2px solid red;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 
 .h1Hero{
     font-size: 80px;
@@ -103,6 +114,16 @@ svg{
     width: 420px;
 }
 
+/* .fotoHero{
+    justify-self: right;
+    background-image: url('../img/yo.png');
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+} */
+
+
+
 
 .slider{
     background-color: #161517;
@@ -112,7 +133,6 @@ svg{
     place-items: center;
     overflow: hidden;
     vertical-align: middle;
-    margin-top: 30px;  
 
 }
 
