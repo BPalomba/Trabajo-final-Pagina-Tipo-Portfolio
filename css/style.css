@@ -21,6 +21,10 @@ header{
     justify-content: center;
     margin-top : 0px;
     padding-top: 0px;
+    background-color: white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    vertical-align: bottom;
 }
 
 body{
@@ -75,12 +79,14 @@ a:hover{
     border: 2px solid red;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    padding-top: 20px;
+    background-color: white;
 }
 
 .h1Hero{
     font-size: 80px;
     font-family: "arapey";
-    margin: 10px 0 40px 0;
+    margin: 10px 0 30px 0;
 }
 
 .aHero{
@@ -95,33 +101,33 @@ a:hover{
     
 }
 
-svg{
-    padding: 0;
-    margin: 0;
-    width: 20px;
-    height: 20px;
+.mailIcon{
     margin-right: 5px;
 }
-
 
 .aHero:hover{
     color: white;
     background-color: #161517;
     text-decoration: none;
+    
 }
 
 .pHero{
     width: 420px;
 }
 
-/* .fotoHero{
-    justify-self: right;
-    background-image: url('../img/yo.png');
-    background-size: cover;
-    height: 600px;
-    width: 600px;
-} */
+.parrafoHero{
+    display: flex;
+}
 
+.quoteUp{
+    padding-top: 10px;
+}
+
+.quoteDown{
+   transform:rotate(180deg);
+   display: inline-block;
+}
 
 
 
@@ -170,7 +176,7 @@ svg{
 } 
 
 .imgBanda{
-    height: 60px;
+    height: 40px;
     margin: 0 20px
 }
 
