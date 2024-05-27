@@ -12,7 +12,7 @@
     box-sizing: border-box;
     font-family: "roboto";
     font-size: medium;
-   
+    border: 2px solid aquamarine;
    
     
 }
@@ -63,6 +63,7 @@ a{
     color: black;
     margin-bottom: 0 5px;
     border: transparent solid 2px ;
+    transition: 0.2s;
 
 }
 
@@ -145,7 +146,6 @@ a:hover{
     color: white;
     background-color: #161517;
     text-decoration: none;
-    
 }
 
 .pHero{
@@ -231,8 +231,6 @@ a:hover{
     margin-top: 80px;
     
 }
-
-
 
 .h2AboutMe{
     margin-top: 0px;
@@ -382,3 +380,56 @@ a:hover{
     margin-top: 0;
     margin-bottom: 10px;
 }
+
+/* Fin My Services */
+
+/* My Portfolio */
+
+.myPortfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pPortfolio{
+    width: 70%;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.buttonBar{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom:40px;
+    
+}
+
+.buttonPortfolio{
+    background-color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    padding: 2px 20px;
+    margin: 0 10px;
+    display:inline-flex;
+    align-items:center;
+    width: auto;
+    transition: 0.2s;
+    border: 2px solid transparent;
+    
+    
+}
+
+.buttonPortfolio:hover{
+    color: white;
+    background-color: #161517;
+    text-decoration: none;
+}
+
+/* Fin My Portfolio */
