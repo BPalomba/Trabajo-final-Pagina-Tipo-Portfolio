@@ -432,4 +432,10 @@ a:hover{
     text-decoration: none;
 }
 
+.cointainerPortfolio{
+    margin: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
 /* Fin My Portfolio */
