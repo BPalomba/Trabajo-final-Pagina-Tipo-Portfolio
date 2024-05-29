@@ -12,7 +12,7 @@
     box-sizing: border-box;
     font-family: "roboto";
     font-size: medium;
-    border: 2px solid aquamarine;
+    /* border: 2px solid aquamarine; */
    
     
 }
@@ -390,6 +390,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 130px 0;
 }
 
 .pPortfolio{
@@ -398,7 +399,14 @@ a:hover{
     font-size: 14px;
     margin: 0;
     padding: 0;
+    line-height: 1.5;
     
+}
+
+.h2Portafolio{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .buttonBar{
@@ -437,5 +445,90 @@ a:hover{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+   
 }
+
+.containerCarrusel{
+    align-items: center;
+    width: 840px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+#containerCarrusel::-webkit-scrollbar{
+  display: none;
+}
+
+
+.cuadradosCarrusel{
+    margin: 0 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.iconoFlechaDiagonal{
+    position: relative;
+    bottom: 50px;
+    left: 375px;
+    padding-top: 5px;
+    font-size: 30px;
+    margin-left: 0px;
+}
+
+
+.imgCarrusel{
+    height: 230px;
+   
+    padding: 0px;
+    border-radius: 10px;
+    margin: 30px;
+    margin-bottom: 5px;
+}
+
+.h1Carrusel{
+    width: 400px;
+    margin-bottom: 2px;
+    text-align: left;
+    margin-left: 42px;
+    margin-top: 0;
+}
+
+.pCarrusel{
+    margin-top: 0;
+    margin-left: 42px;
+    margin-bottom: 0px;
+}
+
+.flechas{
+    border: transparent 2px;
+    margin-top: 30px;
+    filter:opacity(60%);
+    transition: 0.4s;
+    
+}
+
+.flechas:hover{
+    filter: opacity(100%);
+    
+}
+
+.flechaDerecha{
+    transform: rotate(45deg);
+}
+
+.flechaIzquierda{
+    transform: rotate(-135deg);
+}
+
+.iconoFlechaHorizontal{
+    font-size: 25px;
+}
+
 /* Fin My Portfolio */
