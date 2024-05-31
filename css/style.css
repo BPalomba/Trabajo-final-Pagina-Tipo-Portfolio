@@ -12,7 +12,7 @@
     box-sizing: border-box;
     font-family: "roboto";
     font-size: medium;
-    /* border: 2px solid aquamarine; */
+    border: 2px solid aquamarine;
    
     
 }
@@ -516,15 +516,6 @@ a:hover{
 
 .flechas:hover{
     filter: opacity(100%);
-    
-}
-
-.flechaDerecha{
-    transform: rotate(45deg);
-}
-
-.flechaIzquierda{
-    transform: rotate(-135deg);
 }
 
 .iconoFlechaHorizontal{
@@ -532,3 +523,83 @@ a:hover{
 }
 
 /* Fin My Portfolio */
+
+/* Testimonial */
+
+.testimonial{
+    background-color: white;
+    padding-left: 65px;
+   
+    
+}
+
+.containerTestimonial{
+    display: flex;
+    margin-top: 40px;
+}
+
+.imgTestimonial{
+    height: 300px;
+    margin-right:80px;
+    margin-left: 0;
+}
+
+.h3Testimonial{
+    font-family: 'arapey';
+    font-size: 22px;
+    width: 80%;
+}
+
+.oscurito{
+    font-weight: 600;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.pTestimonial{
+    margin-top: 10px;
+    width: 90%;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.big{
+    font-size: 20px;
+}
+
+.comillas{
+    color: gray;
+}
+
+.comillasTestimonial{
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.containerClienteFlechas{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+
+}
+
+.textoCliente{
+    width: 50%;
+}
+
+.divFlechitas{
+    width: 50%;
+    
+}
+
+.contenedorComillas{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Fin Testimonial */
