@@ -12,7 +12,7 @@
     box-sizing: border-box;
     font-family: "roboto";
     font-size: medium;
-    border: 2px solid aquamarine;
+    /* border: 2px solid aquamarine; */
    
     
 }
@@ -529,8 +529,8 @@ a:hover{
 .testimonial{
     background-color: white;
     padding-left: 65px;
-   
-    
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .containerTestimonial{
@@ -546,7 +546,8 @@ a:hover{
 
 .h3Testimonial{
     font-family: 'arapey';
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 550;
     width: 80%;
 }
 
@@ -568,16 +569,25 @@ a:hover{
 
 .big{
     font-size: 20px;
+    background-color: white;
 }
 
 .comillas{
     color: gray;
 }
 
+.contenedorComillas{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-direction: row;
+}
+
 .comillasTestimonial{
     font-size: 100px;
     padding: 0;
     margin: 0;
+    padding-left: 60px;
 
 }
 
@@ -589,17 +599,22 @@ a:hover{
 }
 
 .textoCliente{
-    width: 50%;
+    width: 300px;
 }
 
 .divFlechitas{
     width: 50%;
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-right: 0;
+    padding-left: 20px;
     
 }
 
-.contenedorComillas{
-    display: flex;
-    justify-content: space-between;
+.fondoBlanco{
+    background-color: white;
+
 }
+
 
 /* Fin Testimonial */
