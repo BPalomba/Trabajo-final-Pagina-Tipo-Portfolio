@@ -725,3 +725,35 @@ option:hover{
 }
 
 /* Fin Get In Touch */
+
+/* Footer */
+
+footer{
+    background-color: #171717;
+}
+
+.containerFooter{
+    width: 90%;
+    display: flex;
+}
+
+.textoFooter{
+    color: white;
+}
+
+.textoFinal{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    padding-bottom: 20px;
+    margin: 0 10px;
+}
+
+.copyright{
+    color: gray;
+}
+
+hr{
+    color: gray;
+}
+/* Fin Footer */
