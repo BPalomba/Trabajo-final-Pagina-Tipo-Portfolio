@@ -17,6 +17,18 @@
     
 }
 
+a:hover{
+    cursor:pointer;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+select:hover{
+    cursor:pointer;
+}
+
 p{
     margin: 0;
     padding: 0;
@@ -482,6 +494,10 @@ a:hover{
     margin-left: 0px;
 }
 
+.iconoFlechaDiagonal:hover{
+    cursor:pointer;
+}
+
 
 .imgCarrusel{
     height: 230px;
@@ -618,3 +634,94 @@ a:hover{
 
 
 /* Fin Testimonial */
+
+/* Get In Touch */
+
+.getInTouch{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px 0;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.pGetInTouch{
+    align-self: center;
+    margin-top: 10px;
+    width: 60%;
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.h2Contacto{
+    font-family: 'roboto';
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.cuadradoContacto{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-self: center;
+}
+
+.labelContacto{
+    margin: 0 60px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+  
+}
+
+.inputContacto{
+    margin: 0 60px;
+    margin-bottom: 5px;
+    width: 75%;
+    border-radius: 10px;
+    border: 1px gray solid;
+    filter: opacity(50%);
+    padding: 10px 20px;
+}
+
+.buttonContacto{
+    width: 75%;
+    margin: 30px 60px;
+    margin-bottom: 90px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 2s;
+
+    cursor:pointer;
+}
+
+.pButton{
+    font-family: 'roboto';
+    font-size: 15px;
+}
+
+.buttonContacto:hover{
+    background-color: gray;
+    
+}
+
+option:hover{
+    cursor:pointer;
+}
+
+/* Fin Get In Touch */
