@@ -5,7 +5,7 @@ El proyecto consiste en la imitación de una página de behance, es parte de un 
 El mismo consta de 8 secciones principales : header, hero, SobreMi, Portafolio, MisServicios, MisHabilidades, Proyectos, Contacto y Footer
 
 
-------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 🌐 Enunciado del trabajo
 
