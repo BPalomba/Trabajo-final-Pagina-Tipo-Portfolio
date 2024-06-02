@@ -436,6 +436,9 @@ a:hover{
     margin: 10px;
 }
 
+.imgSkill{
+    filter: grayscale(90%);
+}
 
 /* Fin MySkills */
 
@@ -827,9 +830,6 @@ a:hover{
     
 }
 
-option:hover{
-    cursor:pointer;
-}
 
 /* Fin Get In Touch */
 
