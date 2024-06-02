@@ -181,6 +181,8 @@ a:hover{
    display: inline-block;
 }
 
+/* Animacion Franja Negra */
+
 .slider{
    
     background-color: #161517;
@@ -191,6 +193,7 @@ a:hover{
     overflow: hidden;
     vertical-align: middle;
     align-items: center;
+    border: transparent solid 2px;
 
 }
 
@@ -202,7 +205,7 @@ a:hover{
     width: 2280px;
     animation: scroll 10s  infinite linear;
     overflow: hidden;
-    
+    border: transparent solid 2px;
     
 
 }
@@ -215,10 +218,13 @@ a:hover{
     display: flex;
     align-items: center;
     width: 285px;
+    border: transparent solid 2px;
+    justify-content: center;
 }
 
 .pSlider{
     font-size: 20px;
+    border: transparent solid 2px;
 }
 @keyframes scroll {
     0%{
@@ -231,8 +237,11 @@ a:hover{
 
 .imgBanda{
     height: 40px;
-    margin: 0 20px
+    margin: 0 10px;
+    border: transparent solid 2px;
 }
+
+/* Fin Animacion Franja Negra */
 
 /* Fin Hero */
 
@@ -467,6 +476,7 @@ a:hover{
     display: flex;
     flex-direction: row;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 #containerCarrusel::-webkit-scrollbar{
@@ -537,6 +547,15 @@ a:hover{
 .iconoFlechaHorizontal{
     font-size: 25px;
 }
+
+.h3Portfolio{
+    width: 60%;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: center;
+}
+
 
 /* Fin My Portfolio */
 
