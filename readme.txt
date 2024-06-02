@@ -5,7 +5,7 @@ El proyecto consiste en la imitación de una página de behance, es parte de un 
 El mismo consta de 8 secciones principales : header, hero, SobreMi, Portafolio, MisServicios, MisHabilidades, Proyectos, Contacto y Footer
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 
 🌐 Enunciado del trabajo
 
@@ -21,7 +21,7 @@ Notas Importantes:
 
 Asegúrese de que el diseño sea único y no repetido entre los compañeros, y cumpla con todos los requisitos técnicos especificados. La presentación y funcionalidad de la página serán criterios clave para la evaluación. La nota mínima para aprobar es 6. Se destacará el uso adecuado de Git y la calidad del perfil de GitHub de cada alumno.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 📝 Reflexión Final
 
