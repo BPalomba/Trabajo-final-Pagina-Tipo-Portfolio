@@ -104,7 +104,7 @@ a:hover{
     padding-bottom: 0px;
     margin-bottom: 0px;
     padding-top: 20px;
-    background-color: white;
+    background-color: #FAFAFA;
     padding-left: 20px;
     backdrop-filter: grayscale(90%);
     z-index: 1;
@@ -118,6 +118,15 @@ a:hover{
     filter: grayscale(90%); 
     z-index: -1;
     overflow: hidden;
+}
+
+.hero::after{
+    content: url('../img/circuloHero.png');
+    z-index: 2;
+    position: absolute;
+    left: 45%;
+    top: 200px;
+    transform: scale(0.5);
 }
 
 .h1Hero{
@@ -156,6 +165,7 @@ a:hover{
 .pHero{
     width: 420px;
     margin: 30px 0;
+    margin-top: 60px;
 }
 
 .parrafoHero{
@@ -164,7 +174,7 @@ a:hover{
 }
 
 .quoteUp{
-    padding-top: 25px;
+    padding-top: 52px;
 }
 
 .quoteDown{
