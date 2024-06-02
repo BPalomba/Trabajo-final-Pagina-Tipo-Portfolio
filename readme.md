@@ -4,6 +4,13 @@ El proyecto consiste en la imitación de una página de behance, es parte de un 
 
 El mismo consta de 8 secciones principales : header, hero, SobreMi, Portafolio, MisServicios, MisHabilidades, Proyectos, Contacto y Footer
 
+-----------------------------------------------------------------------------------------------------------------------------
+
+🛠️ Tecnologías Utilizadas
+
+HTML: Para estructurar la pagina y cada seccion
+CSS: Para estilizar la pagina y añadir animaciones atractivas.
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 
