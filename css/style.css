@@ -406,6 +406,27 @@ a:hover{
 
 /* Fin My Services */
 
+/* My Skills */
+
+.mySkills{
+    margin-top: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+.skillsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.skillCuadradito{
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Fin MySkills */
+
 /* My Portfolio */
 
 .myPortfolio{
