@@ -36,3 +36,6 @@ https://www.behance.net/gallery/197487509/Personal-Portfolio-Website?tracking_so
 Nota: Se agrego la sección de "Mis Habilidades" a pedido del profesor.
 
 
+![misskills](https://github.com/BPalomba/Trabajo-final-Pagina-Tipo-Portfolio/assets/112793350/53b3dd08-2ed3-46f6-a1c6-c95be4c2fd31)
+
+
