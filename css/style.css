@@ -411,19 +411,31 @@ a:hover{
 .mySkills{
     margin-top: 80px;
     justify-content: center;
+    align-items: center;
     text-align: center;
+
 }
 
 .skillsContainer{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 80%;
 }
 
 .skillCuadradito{
     background-color: white;
     border-radius: 5px;
+    padding: 20px;
 }
+
+.pSkill{
+    font-weight: 500;
+    margin: 10px;
+}
+
 
 /* Fin MySkills */
 
