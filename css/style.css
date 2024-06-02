@@ -649,10 +649,59 @@ a:hover{
 /* Get In Touch */
 
 .getInTouch{
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 60px 0;
+}
+
+.getInTouch::before{
+    content: url('../img/circulo.png');
+    filter: grayscale(100%);
+    opacity: 0.5;
+    position: absolute;
+    left: 55%;
+    bottom: 68%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    width: 40px;
+    height: 40px;
+    transform: scale(0.2);
+}
+
+.getInTouch::before{
+    content: url('../img/circulo.png');
+    filter: grayscale(100%);
+    opacity: 0.5;
+    position: absolute;
+    left: 55%;
+    bottom: 68%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    width: 40px;
+    height: 40px;
+    transform: scale(0.2);
+}
+
+.getInTouch::after{
+    content: url('../img/circulo.png');
+    filter: grayscale(100%);
+    opacity: 0.5;
+    position: absolute;
+    left: 2%;
+    bottom: 40%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    width: 40px;
+    height: 40px;
+    transform: scale(0.2);
 }
 
 .centrado{
@@ -669,6 +718,7 @@ a:hover{
     padding: 0;
     line-height: 1.5;
     margin-bottom: 60px;
+    background-image: url(../img/);
 }
 
 .h2Contacto{
@@ -687,6 +737,7 @@ a:hover{
     flex-direction: column;
     width: 60%;
     align-self: center;
+    margin-bottom: 30px;
 }
 
 .labelContacto{
@@ -716,7 +767,7 @@ a:hover{
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
-    transition: 2s;
+    transition: 0.5s;
 
     cursor:pointer;
 }
@@ -727,7 +778,9 @@ a:hover{
 }
 
 .buttonContacto:hover{
-    background-color: gray;
+    background-color: lightgray;
+    color: black;
+    border: gray;
     
 }
 
