@@ -12,7 +12,9 @@ HTML: Para estructurar la pagina y cada seccion
 
 CSS: Para estilizar la pagina y añadir animaciones atractivas.
 
-<a href="https://bpalomba.github.io/Trabajo-final-Pagina-Tipo-Portfolio/"> 💻Link a la pagina </a> 
+<h1> 💻Link a la pagina </h1> 
+
+<a href="https://bpalomba.github.io/Trabajo-final-Pagina-Tipo-Portfolio/"> Portfolio Bruno Palombarini </a> 
 
 
 
