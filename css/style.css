@@ -570,12 +570,18 @@ a:hover{
     margin-bottom: 0px;
 }
 
+.containerFlechasPortfolio{
+    /* border: 2px solid aquamarine; */
+    align-self: center;
+    margin: 0 auto;
+}
+
 .flechas{
     border: transparent 2px;
     margin-top: 30px;
     filter:opacity(60%);
     transition: 0.4s;
-    
+    /* border: 2px solid red; */
 }
 
 .flechas:hover{
