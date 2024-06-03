@@ -1,4 +1,4 @@
-📋 Descripción del Proyecto
+<h1> 📋 Descripción del Proyecto </h1>
 
 El proyecto consiste en la imitación de una página de behance, es parte de un TP final de un curso de programación full-stack.
 
