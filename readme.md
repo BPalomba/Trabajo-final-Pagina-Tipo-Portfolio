@@ -8,6 +8,8 @@ El mismo consta de 8 secciones principales : header, hero, SobreMi, Portafolio, 
 <h1> 🛠️ Tecnologías Utilizadas </h1>
 
 HTML: Para estructurar la pagina y cada seccion
+
+
 CSS: Para estilizar la pagina y añadir animaciones atractivas.
 
 
