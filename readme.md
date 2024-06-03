@@ -6,7 +6,7 @@ El mismo consta de 8 secciones principales : header, hero, SobreMi, Portafolio, 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-🛠️ Tecnologías Utilizadas
+<h1> 🛠️ Tecnologías Utilizadas </h1>
 
 HTML: Para estructurar la pagina y cada seccion
 CSS: Para estilizar la pagina y añadir animaciones atractivas.
@@ -14,7 +14,7 @@ CSS: Para estilizar la pagina y añadir animaciones atractivas.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-🌐 Enunciado del trabajo
+<h1> 🌐 Enunciado del trabajo </h1>
 
 Trabajo Práctico Final: Página Tipo Portfolio
 
@@ -30,13 +30,13 @@ Asegúrese de que el diseño sea único y no repetido entre los compañeros, y c
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-📝 Reflexión Final
+<h1>📝 Reflexión Final </h1>
 
 Este proyecto fue mi primer adentramiento realista en las tecnologías CSS y HTML, este proyecto me acompaño durante la última semana y ha sido una experiencia muy valiosa e enriquecedora para mí, logrando asimilar y comprender mucho mejor gran parte de los contenidos vistos en el cursado hasta ahora.
 
 
 
-Página a imitar :
+<h1> 🖨´Página a imitar : </h1>
 
 https://www.behance.net/gallery/197487509/Personal-Portfolio-Website?tracking_source=search_projects|portfolio+web+developer&l=310
 
