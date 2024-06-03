@@ -2,7 +2,7 @@
 
 El proyecto consiste en la imitación de una página de behance, es parte de un TP final de un curso de programación full-stack.
 
-El mismo consta de 8 secciones principales : header, hero, SobreMi, Portafolio, MisServicios, MisHabilidades, Proyectos, Contacto y Footer
+El mismo consta de 8 secciones principales : header, hero, SobreMi, Portafolio, MisServicios, MisHabilidades, Proyectos, Contacto y Footer.
 
 
 <h1> 🛠️ Tecnologías Utilizadas </h1>
@@ -36,7 +36,9 @@ Este proyecto fue mi primer adentramiento realista en las tecnologías CSS y HTM
 
 
 
-<h1> 🖨´Página a imitar : </h1>
+<h1> 🖨Página a imitar : </h1>
+
+
 
 https://www.behance.net/gallery/197487509/Personal-Portfolio-Website?tracking_source=search_projects|portfolio+web+developer&l=310
 
@@ -44,6 +46,7 @@ Nota: Se agrego la sección de "Mis Habilidades" a pedido del profesor.
 
 
 ![misskills](https://github.com/BPalomba/Trabajo-final-Pagina-Tipo-Portfolio/assets/112793350/53b3dd08-2ed3-46f6-a1c6-c95be4c2fd31)
+
 
 
 <h1>🎁 Demo</h1>
