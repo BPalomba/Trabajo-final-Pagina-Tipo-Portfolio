@@ -168,6 +168,8 @@ a:hover{
     color: white;
     background-color: #161517;
     text-decoration: none;
+    border: 2px solid transparent;
+   
 }
 
 .pHero{
