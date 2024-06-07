@@ -833,19 +833,20 @@ a:hover{
     padding: 10px 20px;
     border-radius: 10px;
     transition: 0.5s;
-
+    border: black 2px;
     cursor:pointer;
 }
 
 .pButton{
     font-family: 'roboto';
     font-size: 15px;
+   
 }
 
 .buttonContacto:hover{
     background-color: lightgray;
     color: black;
-    border: gray;
+    border: gray 2px;
     
 }
 
@@ -878,7 +879,7 @@ footer{
 }
 
 .textoFinal{
-    border-top: 1px solid #555;
+    border-top: 1px solid #24242478;
     display: flex;
     justify-content: space-between;
     color: gray;
