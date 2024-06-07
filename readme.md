@@ -61,3 +61,25 @@ Nota: Se agrego la sección de "Mis Habilidades" a pedido del profesor.
 https://github.com/BPalomba/Trabajo-final-Pagina-Tipo-Portfolio/assets/112793350/de21ca2f-dabb-4e77-80d2-fb2473993c41
 
 
+
+<h1>🎓Devolucion del profesor // Solucionado</h1>
+
+? Perfil de github incompleto. 
+X menú, el contáctame no está alineado.
+X botón contratame y ver porfolio tenemos que la línea de abajo está muy cerca del texto.
+X los botones anteriores, tienen un borde que no corresponde.
+? las comillas no son las que se deben usar.
+? los textos tienen que estar traducidos.
+? flechas en mi portfolio no deben mostrarse con ese hover cuadrado.
+X cuando se pasa el mouse al botón de enviar mensaje se mueve toda la página.
+X al footer de la página se agregó un hr que no era necesario.
+:( no tiene responsive.
+:( el problema más grande de todos es que centraste la página lo cual esta mal , dejaste todo centrado y a los costados todo un espacio en blanco
+
+Glosario
+
+? - No entiendo a que se refiere
+X - Solucionado
+:( - No se implemento
+
+
