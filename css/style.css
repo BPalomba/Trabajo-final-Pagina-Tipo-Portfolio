@@ -149,6 +149,7 @@ a:hover{
 
 .aHero{
     text-decoration: underline;
+    text-underline-offset: 2px;
     color: black;
     padding: 10px 20px;
     margin: 0 0 5px 0;
