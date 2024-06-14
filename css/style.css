@@ -44,7 +44,7 @@ header{
     justify-content: center;
     margin-top : 0px;
     padding-top: 0px;
-    background-color: white;
+    background-color: #FAFAFA;
     padding-bottom: 0px;
     margin-bottom: 0px;
     vertical-align: bottom;
@@ -84,7 +84,7 @@ a:hover{
 
 .contactMe{
     margin: 0;
-    padding: 0;
+    padding: 10px;
     margin-top: 2px;
     margin-right: 65px;
 }
@@ -570,7 +570,7 @@ a:hover{
 }
 
 .carruselLoginPage{
-    height: 230px;
+    height: 205px;
     width: 230px;
     margin: 30px auto;
 }
